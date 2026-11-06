@@ -9,17 +9,33 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.1",
+    "@mui/icons-material": "^9.5.0",
+    "@mui/material": "^9.5.0",
+    "@prisma/client": "^6.19.3",
+    "bcryptjs": "^3.0.3",
+    "mysql2": "^3.24.6",
+    "next": "15.5.29",
+    "next-auth": "^4.24.15",
     "react": "19.1.0",
-    "react-dom": "19.1.0",
-    "next": "15.5.29"
+    "react-dom": "19.1.0"
   },
   "devDependencies": {
-    "typescript": "^5",
+    "@eslint/eslintrc": "^3",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "eslint": "^9",
     "eslint-config-next": "15.5.29",
-    "@eslint/eslintrc": "^3"
+    "prisma": "^6.19.3",
+    "tsx": "^4.23.15",
+    "typescript": "^5"
+  },
+  "allowScripts": {
+    "@prisma/client@6.19.3": true,
+    "@prisma/engines@6.19.3": true,
+    "prisma@6.19.3": true,
+    "esbuild@0.28.2": true
   }
 }
